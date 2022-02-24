@@ -1,1 +1,15 @@
 @charset "UTF-8";
+
+.hide{
+  width:0; height:0;
+  font-size:0; line-height:0;
+  position:absolute;
+  visibility:hidden;
+}
+
+/* 공통 사항 */
+header>div,article>div{
+  width:1320px;
+  margin:0 auto;
+  background-color:pink;
+}
