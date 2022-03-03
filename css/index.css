@@ -170,8 +170,8 @@ nav .close{}
   color:#fff;
   background:#9c9491 url('../images/header_icon_01.png') no-repeat center 62px;
 }
-#box02>div>dl:nth-child(2){background-image:url(../images/header_icon_02.png);}
-#box02>div>dl:nth-child(3){background-image:url(../images/header_icon_03.png);}
+#box02>div>dl:nth-child(2){background-image:url('../images/header_icon_02.png');}
+#box02>div>dl:nth-child(3){background-image:url('../images/header_icon_03.png');}
 #box02>div>dl>dt{
   font-family:'Raleway',sans-serif;
   font-size:20px;
