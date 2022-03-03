@@ -87,7 +87,6 @@ nav .close{}
 
 /* box01 */
 #box01{
-  width:100%;
   height:calc(100vh - 70px);
   background-color:green;
   position:relative;
@@ -125,13 +124,13 @@ nav .close{}
 #box01>ul>li.work02{background-image:url('../images/pink.jpg')}
 #box01>ul>li.work03{background-image:url('../images/purple.jpg')}
 #box01>ul>li.work04{background-image:url('../images/green.jpg')}
-#box01.no{
+#box01>.no{
   position:absolute;
   right:100px;
   bottom:30px;
   background-color:red;
 }
-#box01.prev{
+#box01>.no>a{
   display:inline-block;
   width:20px; height:20px;
   margin:0 8px;
@@ -139,4 +138,17 @@ nav .close{}
   background-color:#fff;
   text-indent:-999999px;
 }
-#box01.next{}
+#box01.prev{
+  position:absolute;
+  width:40px; height:40px;
+  left:50%; top:50%;
+  border:1px solid #fff;
+  margin-top:20px;
+}
+#box01.next{
+  position:absolute;
+  width:40px; height:40px;
+  right:50%; top:50%;
+  border:1px solid #fff;
+  margin-top:20px;
+}
