@@ -89,7 +89,14 @@ nav .close{}
 #box01{
   height:calc(100vh - 70px);
 }
-#box01>h2{}
+#box01>h2{
+  width:675px;
+  height:284px;
+  position:absolute;
+  left:50%; top:50%;
+  margin-top:-337.5px;
+  margin-left:-142px;
+}
 #box01>ul{
   width:400%;
   height:100%;
