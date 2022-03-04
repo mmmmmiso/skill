@@ -299,3 +299,93 @@ nav .close{}
 #box05 .box>.next{}
 
 /* box06 */
+#box06{
+  background-color:#9c9491;
+  height:100vh;
+  color:#fff;
+}
+#box06 .title{
+  margin-bottom:25px;
+}
+#box06 .text{
+  width:80%;
+}
+#box06 a{
+  color:#fff;
+}
+#box06>div{
+}
+#box06>div>div{
+  width:1100px;
+  margin: 0 auto;
+  display:flex;
+  flex-wrap:wrap;
+}
+#box06>div>div>div{
+  width:50%;
+}
+#box06>div>div>div dl{
+  margin-bottom:20px;
+}
+#box06>div>div>div dl>dt{
+  padding-left:37px;
+  background:url('../images/contact_icon_01.png') no-repeat left center;
+  background-size:22px;
+}
+#box06>div>div>div dl:nth-child(2)>dt{
+  background-image:url('../images/contact_icon_02.png');
+}
+#box06>div>div>div dl:nth-child(3)>dt{
+  background-image:url('../images/contact_icon_03.png');
+}
+#box06>div>div>div dl>dd{
+  padding-left:37px;
+}
+
+#box06 form{
+  width:50%;
+  padding:0 45px;
+  box-sizing:border-box;
+  color:#717171;
+}
+#box06 form>fieldset{
+  background-color:#fff;
+  padding:20px;
+}
+#box06 form>fieldset>ul{
+  /* background-color: green; */
+}
+#box06 form>fieldset>ul>li{
+  margin-bottom:20px;
+}
+#box06 form>fieldset>ul>li>label{
+  display:block;
+  line-height:1;
+  margin-bottom:6px;
+}
+#box06 form>fieldset>ul>li>input{
+  width:100%;
+  box-sizing: border-box;
+  background-color:rgb(234,228,228);
+  line-height:43px;
+  border:none;
+  border-radius:4px;
+  text-indent:15px;
+}
+#box06 form>fieldset>ul>li>textarea{
+  width:100%; height:120px;
+  box-sizing: border-box;
+  background-color:rgb(234,228,228);
+  border:none;
+  border-radius:4px;
+  text-indent:15px;
+  line-height: 43px;
+}
+#box06 form>fieldset>p>input{
+  width:100%; height:43px;
+  background-color:rgb(234,228,228);
+  border:0px;
+  border-radius:4px;
+  color:#717171;
+  font:18px/43px arial,sans-serif;
+}
