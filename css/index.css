@@ -301,7 +301,6 @@ nav .close{}
 /* box06 */
 #box06{
   background-color:#9c9491;
-  height:100vh;
   color:#fff;
 }
 #box06 .title{
@@ -329,14 +328,14 @@ nav .close{}
 }
 #box06>div>div>div dl>dt{
   padding-left:37px;
-  background:url('../images/contact_icon_01.png') no-repeat left center;
+  background:url('../images/contact_icon_04.png') no-repeat left center;
   background-size:22px;
 }
 #box06>div>div>div dl:nth-child(2)>dt{
-  background-image:url('../images/contact_icon_02.png');
+  background-image:url('../images/contact_icon_03.png');
 }
 #box06>div>div>div dl:nth-child(3)>dt{
-  background-image:url('../images/contact_icon_03.png');
+  background-image:url('../images/contact_icon_02.png');
 }
 #box06>div>div>div dl>dd{
   padding-left:37px;
@@ -391,3 +390,11 @@ nav .close{}
 }
 
 /* footer */
+footer{
+  padding:40px 0;
+  background-color:#333;
+  text-align:center;
+  color:#fff;
+  font-size:16px;
+  line-height:1;
+}
