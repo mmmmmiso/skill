@@ -1,13 +1,4 @@
 @charset "UTF-8";
-/* font-family: 'Raleway', Sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-img{
-  max-width:100%;
-}
-body{
-  font:18px/30px arial,sans-serif;
-}
 .hide{
   width:0; height:0;
   font-size:0; line-height:0;
