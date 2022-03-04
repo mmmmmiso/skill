@@ -65,13 +65,28 @@ nav>ul>li{
 nav>ul>li>a{
   line-height: 60px;
 }
-    /*  */
-}
 #btn{
     display:block;
 }
 nav .close{
     display:block;
+}
+/* box01 */
+#box01{
+    height:100vh;
+}
+#box01>h2{
+    width:100%;
+    border:none;
+    left:0; top:50%;
+    margin: -140px 0 0 0px;
+    font-size:50px;
+  }
+  #box01>ul>li{
+      background-size:auto 100%;
+  }
+  /* box02 */
+    /*  */
 }
 
 @media screen and (max-width:579px) and (min-width:230px){
