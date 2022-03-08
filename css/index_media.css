@@ -204,7 +204,7 @@
   /*  */
 }
 
-@media screen and (max-width:579px) and (min-width:230px){
+@media screen and (max-width:579px){
   #box02, #box03, #box04, #box05, #box06{
     padding:45px 0;
   }
@@ -306,5 +306,62 @@ nav .close{
   right:5vw;
   margin-top:-2.5vw;
 }
+/* box02 */
+#box02{}
+#box02>div{
+  width:90vw;
+  display:block;
+}
+#box02>div>dl{
+  width:auto;
+  padding:25px 0 25px;
+  margin-bottom:25px;
+}
+#box02>div>dl:nth-child(2){background-image:none;}
+#box02>div>dl:nth-child(3){background-image:none;}
+#box02>div>dl:nth-child(4){background-image:none; margin-bottom:0;}
+#box02>div>dl>dt{
+  margin-bottom:20px;
+}
+#box02>div>dl>dd{
+  width:60%;
+  margin: 0 auto;
+}
+/* box03 */
+#box03{
+  background-color:#e8e8e8;
+}
+#box03>div{}
+#box03>div>div{
+  width:auto;
+  padding-left:0;
+}
+#box03>div>div>figure{
+  position:static;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#box03>div>div>div{
+  width:90vw;
+  margin:0 auto;
+}
+#box03>div>div>div>.title{
+  text-align: center;
+}
+#box03>div>div>div>.text{
+  width:90vw;
+}
+#box03 .btn{
+  text-align:center;
+}
+#box03 .btn>button{
+  width:196px; height:54px;
+  background-color:#9c9491;
+  border:none;
+  box-sizing:border-box;
+  border-radius:27px;
+  color:#fff;
+}
+  /* box04 */
   /*  */
 }
