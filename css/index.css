@@ -221,7 +221,7 @@ nav .close{
 #box04>div>div>div{
   width:50%;
 }
-#box04>div>div>div>text{
+#box04>div>div>div>.text{
   width:74.2424242%/* 490px */;
 }
 #box04>div>div>ul{
