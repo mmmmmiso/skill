@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-body{
-  line-height: 25px;
-}
 .hide{
   width:0; height:0;
   font-size:0; line-height:0;
@@ -184,6 +181,7 @@ nav .close{
 #box02>div>dl>dd{
   width:80%;
   margin: 0 auto;
+  line-height:25px;
 }
 
 /* box03 */
