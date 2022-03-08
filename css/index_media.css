@@ -366,12 +366,12 @@ nav .close{
   #box04{}
 #box04>div{}
 #box04>div>div{
-  display:flex;
-  flex-wrap:wrap;
+  width:90vw;
+  display:block;
+  margin:0 auto;
 }
 #box04>div>div>div{
-  width:90vw;
-  margin:0 auto;
+  width:auto;
 }
 #box04>div>div>div>.title{
   text-align:center;
@@ -379,18 +379,51 @@ nav .close{
 }
 #box04>div>div>div>.text{
   width:auto;
-  margin-bottom:20px;
 }
 #box04>div>div>ul{
-  width:88vw;
+  width:80vw;
+  overflow:hidden;
   margin:0 auto;
 }
-#box04>div>div>ul>li{
-  width:70px; height:70px;
-  margin:0 8px 16px;
-  border:2px solid #cac6c4;
-  float:left;
-  text-indent:-999999px;
+  /* box05 */
+  #box05 .box{
+    position:relative;
+  }
+  #box05 #show{
+    width:80vw;
+    margin:0 auto;
+    overflow:hidden;
+  }
+  #box05 #all{
+    width:240vw;
+    justify-content:baseline;
+  }
+  #box05 #all>figure{
+    width:30vw;
+    margin-bottom:0;
+    margin:0 5vw 0;
+  }
+  #box05 #all>figure>img{
+    margin-bottom:10px;
+  }
+  
+  /* 버튼 */
+  #box05 .box>.prev{
+    width:5vw; height:5vw;
+    position:absolute;
+    left:2.5vw;
+    top:50%;
+    margin-top:-2.5vw;
+    background-color:red;
+  }
+  #box05 .box>.next{
+    width:5vw; height:5vw;
+    position:absolute;
+    right:2.5vw;
+    top:50%;
+    margin-top:-2.5vw;
+    background-color:red;
+  }
   /* box05 */
   /*  */
 }
