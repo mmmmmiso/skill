@@ -221,7 +221,7 @@ nav .close{
 #box04>div>div>div{
   width:50%;
 }
-#box04>div>div>div>text{
+#box04>div>div>div>.text{
   width:74.2424242%/* 490px */;
 }
 #box04>div>div>ul{
@@ -291,7 +291,7 @@ nav .close{
   margin-bottom:50px;
 }
 #box05 #all>figure>img{
-  margin-bottom:20px;
+  margin-bottom:50px;
 }
 
 /* 버튼 */
@@ -326,18 +326,18 @@ nav .close{
 #box06>div>div>div dl{
   margin-bottom:20px;
 }
-#box06>div>div>div dl>dt{
+#box06>div>div>div>dl>dt{
   padding-left:37px;
-  background:url('../images/contact_icon_04.png') no-repeat left center;
+  background:url('../images/contact_icon_01.png') no-repeat left center;
   background-size:22px;
 }
-#box06>div>div>div dl:nth-child(2)>dt{
+#box06>div>div>div>dl:nth-child(4)>dt{
   background-image:url('../images/contact_icon_03.png');
 }
-#box06>div>div>div dl:nth-child(3)>dt{
+#box06>div>div>div>dl:nth-child(5)>dt{
   background-image:url('../images/contact_icon_02.png');
 }
-#box06>div>div>div dl>dd{
+#box06>div>div>div>dl>dd{
   padding-left:37px;
 }
 
