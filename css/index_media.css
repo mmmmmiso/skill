@@ -363,5 +363,34 @@ nav .close{
   color:#fff;
 }
   /* box04 */
+  #box04{}
+#box04>div{}
+#box04>div>div{
+  display:flex;
+  flex-wrap:wrap;
+}
+#box04>div>div>div{
+  width:90vw;
+  margin:0 auto;
+}
+#box04>div>div>div>.title{
+  text-align:center;
+  margin-bottom:20px;
+}
+#box04>div>div>div>.text{
+  width:auto;
+  margin-bottom:20px;
+}
+#box04>div>div>ul{
+  width:88vw;
+  margin:0 auto;
+}
+#box04>div>div>ul>li{
+  width:70px; height:70px;
+  margin:0 8px 16px;
+  border:2px solid #cac6c4;
+  float:left;
+  text-indent:-999999px;
+  /* box05 */
   /*  */
 }
