@@ -162,6 +162,45 @@
     background-color: red;
   }
   /* box06 */
+  #box06{}
+  #box06 .title{
+    text-align: center;
+  }
+  #box06 .text{
+    width:auto;
+    text-align: center;
+  }
+  #box06 a{
+    color:#fff;
+  }
+  #box06>div>div{
+    width:88vw;
+    margin: 0 auto;
+    display:block;
+  }
+  #box06>div>div>div{
+    width:auto;
+    margin-bottom:45px;
+  }
+  #box06>div>div>div dl{
+    width:76vw;
+    margin:0 auto 5px;
+  }
+  #box06>div>div>div>dl>dt{
+    display:inline-block;
+  }
+  #box06>div>div>div dl>dd{
+    padding-left:0;
+    display:inline-block;
+  }
+  
+  #box06 form{
+    width:76vw;
+    padding:0 0;
+    margin:0 auto;
+    box-sizing:border-box;
+    color:#717171;
+  }
   /*  */
 }
 
