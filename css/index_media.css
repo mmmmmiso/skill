@@ -385,7 +385,30 @@ nav .close{
   overflow:hidden;
   margin:0 auto;
 }
+#box04>div>div>ul>li{
+  width:13vw; height:13vw;
+  margin:0 1vw 2vw;
+  border:2px solid #cac6c4;
+  float:left;
+  text-indent:-999999px;
+  background:url('../images/icon/html5.png') no-repeat center;
+}
   /* box05 */
+  #box05>div{
+    width:90vw;
+  }
+  #box05>div>.title{
+    width:75vw;
+    margin: 0 auto 50px;
+  }
+  #box05>div>.text{
+    width:auto;
+    margin: 0 auto 50px;
+    text-align:left;
+  }
+  #box05>div>ul>li{
+    font-size:20px;
+  }
   #box05 .box{
     position:relative;
   }
@@ -424,6 +447,6 @@ nav .close{
     margin-top:-2.5vw;
     background-color:red;
   }
-  /* box05 */
+  /* box06 */
   /*  */
 }
