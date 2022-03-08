@@ -202,6 +202,9 @@ nav .close{
   position:absolute;
   left:0; top:0;
 }
+#box03>div>div>figure>img{
+  max-width:100%;
+}
 #box03 .btn{
   text-align:right;
 }
